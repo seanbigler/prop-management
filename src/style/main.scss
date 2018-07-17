@@ -1,5 +1,13 @@
+// Base
 @import 'variables';
 @import 'base';
-@import 'header-wrapper';
+
+// Header
+@import 'header';
+
+//Auth
 @import 'signin';
 @import 'signup';
+
+//Helpers
+@import 'form-title';
