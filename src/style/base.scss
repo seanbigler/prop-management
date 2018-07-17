@@ -19,7 +19,7 @@ body
     color: $color-gray-4D;
 }
 
-.app-wrapper
+.layout-grid
 {
     display: grid;
     grid-template-rows: [page-s header-s] 13.6rem [header-e bar-s] 4rem [bar-e content-s] 1fr [content-e page-e];
