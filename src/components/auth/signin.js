@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
-import { FormTitle } from '../formTitle';
+
+import SigninForm from './signinForm';
 
 class Signin extends Component
 {
@@ -7,7 +8,7 @@ class Signin extends Component
     {
         return (
             <div className='sign-in'>
-                <FormTitle className="sign-in__title" text="Login"/>
+                <SigninForm/>
             </div>
         )
     }
