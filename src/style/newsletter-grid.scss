@@ -1,0 +1,11 @@
+.newsletter-grid
+{
+    grid-row: content-s/content-e;
+    // height: 100%;
+    display: grid;
+
+    grid-template-rows: [s box-s] 16rem [box-e archive-s] 1fr [archive-e e];
+    grid-template-columns: [box-s archive-s] 16rem [box-e archive-e newsletter-s] 96rem [newsletter-e];
+
+    justify-content: center;
+}
